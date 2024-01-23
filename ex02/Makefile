@@ -1,10 +1,10 @@
-NAME = andOpen
+NAME = repWork
 
 CC = c++
 FLAGS = -Wall -Wextra -Werror -std=c++98
 RM = rm -rf
 
-FILES = main ClapTrap
+FILES = main ClapTrap ScavTrap FragTrap
 OBJ = $(FILES:=.o)
 
 all: $(NAME)
